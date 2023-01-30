@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "comic sans MS";
+}
+
+header {
+    width: 100%;
+    height: 405px;
+    background-image: url(../Images/design1_image1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 480%;
+    text-shadow: 2px 2px 0 white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 200%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+main img {
+    position: absolute;
+    right: 130px;
+    top: 280px
+}
+
+div {
+    display: inline-block;
+    position: absolute;
+    width: 60%;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 120%;
+    display: block;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+p {
+    margin-bottom: 30px;
+
+}
+
+#imagen1, #imagen2, #imagen3 {
+    position: absolute;
+    top: 540px;
+    right: 150px;
+}
