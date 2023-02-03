@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "comic sans MS"; */
+}
+
+header {
+    background-image: url(../Images/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 450%;
+    text-shadow: 3px 3px 0 white;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    color: black;
+    background-color: yellowgreen;
+}
+
+h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.container-flex {
+    background-color: blanchedalmond;
+    height: 150vh;
+    display: flex;
+}
+
+nav a {
+    font-size: 150%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgb(93, 93, 93);
+    border-radius: 40px;
+    text-align: center;
+}
+
+nav {
+    display: inline-grid;
+}
+
+a:active {
+    background-color: rgb(235, 235, 87);
+}
+
+.container-logo {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.container-contenido {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 150%;
+    background-color: blanchedalmond;
+}
+
+
+dd {
+    margin-left: 10px;
+}
+
+th {
+    padding: 30px;
+    border: 1px solid black;
+  }
