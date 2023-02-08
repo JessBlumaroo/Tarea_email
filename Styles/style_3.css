@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #8fbf53;
+}
+
+.barra-nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 10px 20px #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    background-color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 38px;
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    transition: all 0.4s;
+    bottom: 0;
+    position: relative;
+}
+
+nav a:hover {
+    color: #7AB730;
+}
+
+nav a::after {
+    background-color: #7AB730;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.2s;
+    width: 0;
+}
+
+nav a:hover::after,
+nav a.active::after {
+    width: 100%;
+}
+
+.container-logo {
+    position: fixed;
+    top: 0px;
+    left: 100px;
+}
+
+
+.banner {
+    background-image: url(../Images/design2_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+.banner h1 {
+    color: yellow;
+    font-size: 500%;
+    text-shadow: 3px 3px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    z-index: 1;
+
+}
+
+
+.info-box {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-imagenes {
+    width: 50%;
+    height: 100%;
+}
+
+h2 {
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    color: #656565;
+}
+
+.container-texto {
+    width: 50%;
+    height: auto;
+    padding: 40px;
+    font-size: 24px;
+    background-color: white;
+}
+
+#imagen1,
+#imagen2,
+#imagen3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-rules {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    font-size: 24px;
+    background-color: white;
+}
+
+.container-tabla {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    font-size: 24px;
+    margin: auto;
+    background-color: white;
+}
+
+th {
+    padding: 30px;
+    border: 1px solid black;
+    background-color: rgb(247, 247, 178);
+}
+
+main {
+    padding-top: 80px;
+}
+
+.container-form {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    font-size: 24px;
+    background-color: white;
+}
+
+fieldset legend {
+    margin: 30px;
+}
+
+.formulario1, .formulario2, .formulario3, .formulario4, .formulario5 {
+    margin: 30px;
+    font-size: 120%;
+}
+
+fieldset p {
+    margin: 20px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.copyright-text {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
